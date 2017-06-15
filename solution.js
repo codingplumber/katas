@@ -8,7 +8,7 @@ function solution(number){
         nums.push(i);
       }
     }
-
+    
     if (nums.length > 1) {
       return nums.filter((elem, i, nums) => {
         return nums.indexOf(elem) === i;
