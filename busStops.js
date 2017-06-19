@@ -7,3 +7,10 @@ var number = function(busStops){
 }
 
 number([[3,0],[9,1],[4,10],[12,2],[6,1],[7,10]]);
+
+
+////////////////////// BETTER /////////////////////////////////
+
+// var number = function(busStops){
+//   return busStops.map(x => x[0] - x[1]).reduce( (x, y) => x + y);
+// }
