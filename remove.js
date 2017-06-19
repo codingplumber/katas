@@ -7,3 +7,8 @@ function remove(s){
 }
 
 remove("Hi!!1!");
+
+//////////////////////////////// BETTER //////////////////////////////////
+// function remove(s) {
+//   return s.endsWith('!') ? s.slice(0, -1) : s;
+// }
