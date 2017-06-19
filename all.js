@@ -17,3 +17,8 @@ function all( arr, fun ){
 }
 
 all([1, 2, 3, 4, 5, 12], function(v){return v<9});
+
+//////////////////////////// MUCH BETTER ////////////////////////////////
+function all( arr, fun ){
+  return arr.every(fun)
+}
