@@ -18,6 +18,8 @@ function all( arr, fun ){
 
 all([1, 2, 3, 4, 5, 12], function(v){return v<9});
 
+// if all elements pass the test return true, else return false
+
 //////////////////////////// MUCH BETTER ////////////////////////////////
 function all( arr, fun ){
   return arr.every(fun)
