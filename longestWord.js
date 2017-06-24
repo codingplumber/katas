@@ -12,3 +12,9 @@ function longestWord(stringOfWords){
 }
 
 longestWord('red hotdog blue grey odghot')
+
+///////////////////////////////////// BETTER ////////////////////////////////
+
+// function longestWord(str){
+//   return str.split(" ").reduce((acc, i) => acc = (acc.length > i.length) ? acc : i, "");
+// }
